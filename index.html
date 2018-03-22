@@ -23,11 +23,11 @@
                 <a class="nav-link" href="#">About</a>
             </li>
              <li class="nav-item">
-                <a class="nav-link" href="#">Speakers</a>
+                <a class="nav-link" href="#speakers">Speakers</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Schedule</a>
+                <a class="nav-link" href="#schedule">Schedule</a>
             </li>
         </ul>
     </div>
@@ -38,6 +38,16 @@
 
 </nav>
 
+<div class="jumbotron jumbotron-fluid bg-info text-white">
+    <div class="container text-sm-center pt-5">
+        <h1 class="display-2">InfoSec Conference</h1>
+        <p class="lead">A one day conference on Information Security</p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a type="button" class="btn btn-primary btn-lg" href="#speakers">Speakers</a>
+            <a type="button" class="btn btn-secondary btn-lg" href="#schedule">Schedule</a>
+        </div>
+    </div>
+</div> <!-- Jumbotron ends -->
 <div class="container pt-4">
     <div class="row">
         <div class="col-sm">
@@ -67,14 +77,15 @@
     </div>  <!-- about -->
 
     <!--Speakers -->
-    <h1 class="display-4 text-center text-muted">Speakers</h1>
+    <h1 id="speakers" class="display-4 text-center text-muted">Speakers</h1>
     [speaker bios go here]
     <!--Schedule -->
-    <h1 class="display-4 text-center text-muted">Schedule</h1>
+    <h1 id="schedule" class="display-4 text-center text-muted">Schedule</h1>
     [Conference schedule goes here]
-
+    <button type="button" class="btn btn-outline-info btn-lg d-block mx-auto my-5">Register Now!</button>
 
 </div> <!-- /.container -->
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
